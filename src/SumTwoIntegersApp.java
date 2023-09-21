@@ -2,7 +2,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class SumTwoIntegersApp {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args){
 
         int[] nums = getInputs();
         System.out.println("The sum is: " + (nums[0] + nums[1]));
